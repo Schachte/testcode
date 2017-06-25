@@ -10,7 +10,7 @@
       <Password Encryption="Yes" />
     </Credential>
     <Phone>
-      <Wor>str1234</Work>
+      <Work>str1234</Work>
       <Cell Provider="str1234" />
     </Phone>
     <Category>Friend</Category>
