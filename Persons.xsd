@@ -17,31 +17,47 @@
                     </sequence>
                   </complexType>
                 </element>
-                <element name="Credential" minOccurs="1">
+
+                <element name="Credential">
                   <complexType>
                     <sequence>
                       <element name="Id" type="string"/>
                       <element name="Password">
                         <complexType>
-                        <attribute name="Encryption">
-                          <simpleType>
-                            <restriction base="string">
-                              <pattern value="Yes|No" />
-                            </restriction>
-                          </simpleType>
-                        </attribute>
+                          <simpleContent>
+                            <extension base="string">
+                              <attribute name="Encryption">
+                                <simpleType>
+                                  <restriction base="string">
+                                    <pattern value="Yes|No" />
+                                  </restriction>
+                                </simpleType>
+                              </attribute>
+                            </extension>
+                          </simpleContent>
                         </complexType>
                       </element>
                     </sequence>
                   </complexType>
                 </element>
+
+                
+                
                 <element name="Phone" minOccurs="1">
                   <complexType>
                     <sequence>
                       <element name="Work" type="string"/>
                       <element name="Cell">
                         <complexType>
-                          <attribute name="Provider" type="string"/>
+                          <simpleContent>
+                            <extension base="string">
+                              <attribute name="Provider">
+                                <simpleType>
+                                  <restriction base="string" />
+                                </simpleType>
+                              </attribute>
+                            </extension>
+                          </simpleContent>
                         </complexType>
                       </element>
                     </sequence>
