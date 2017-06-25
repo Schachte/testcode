@@ -7,7 +7,7 @@
     </Name>
     <Credential>
       <Id>1206017757</Id>
-      <Password Encryption="Yes">xysPASS</Password>
+      <Password Encryption="No">xysPASS</Password>
     </Credential>
     <Phone>
       <Work>48045288215</Work>
@@ -22,7 +22,7 @@
     </Name>
     <Credential>
       <Id>12022347</Id>
-      <Password Encryption="No">xysPASS</Password>
+      <Password Encryption="Yes">E5IIGpB7scRuvuWZRavGbQ==</Password>
     </Credential>
     <Phone>
       <Work>48043333215</Work>
