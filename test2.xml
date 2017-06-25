@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Persons>
+  <Person>
+    <Name>
+      <First>ryan</First>
+      <Last>schachte</Last>
+    </Name>
+    <Credential>
+      <Id>1206017757</Id>
+      <Password Encryption="Yes">xysPASS</Password>
+    </Credential>
+    <Phone>
+      <Work>480work</Work>
+      <Cell Provider="tmobile">4804528825</Cell>
+    </Phone>
+    <Category>Friend</Category>
+  </Person>
+</Persons>
